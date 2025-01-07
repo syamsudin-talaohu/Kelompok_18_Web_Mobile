@@ -135,6 +135,7 @@ $pw= new combo();
 						<ul class="section-title">
 <li>Mohon baca isi paket yang ditawarkan oleh DESIGNkita.</li>
 <li>Pilih konsultan sesuai kebutuhan anda</li>
+<li>Saat memilih tanggal konsultasi harap memilih tanggal di atas hari ini agar tidak terjadi expired</li>
 
 </ul><br>
 							

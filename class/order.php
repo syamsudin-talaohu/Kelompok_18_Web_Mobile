@@ -87,6 +87,18 @@ $sql = "DELETE from tbl_pesan where id_pesan='$id_pesan'";
 				return $hasil;
 
 	}
+
+	public function update_tahap($id_pesan, $tahap) {
+		$sql = "UPDATE tbl_pesan SET tahap = '$tahap' WHERE id_pesan = '$id_pesan'";
+		mysqli_query($this->getConnection(), $sql);
+	}
+	
+	public function update_drive($id_pesan, $drive) {
+		$sql = "UPDATE tbl_pesan SET drive = '$drive' WHERE id_pesan = '$id_pesan'";
+		mysqli_query($this->getConnection(), $sql);
+	}
+		
+
 	function deal(){
 		$sql = "select count(status)as status from tbl_pesan where status='S2' ";
 				$result = mysqli_query($this->getConnection(),$sql);

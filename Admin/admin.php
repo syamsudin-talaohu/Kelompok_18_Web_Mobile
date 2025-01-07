@@ -71,7 +71,12 @@ if(empty($_SESSION)){
 						<i class="fa fa-bar-chart-o"></i>
 						<span class="hidden-xs">Cek Transaksi</span>
 					</a>
-					
+				</li>
+				<li class="dropdown">
+					<a href="ajax/transaksi_sukses.php" class="ajax-link" >
+						<i class="fa fa-bar-chart-o"></i>
+						<span class="hidden-xs">Transaksi Sukses</span>
+					</a>
 				</li>
 				<li class="dropdown">
 					<a href="ajax/fortopolio.php" class="ajax-link" >
@@ -92,6 +97,14 @@ if(empty($_SESSION)){
 						<i class="fa fa-pencil-square-o"></i>
 						 <span class="hidden-xs">Paket Pembelian</span>
 					</a>
+
+					<li class="dropdown">
+    <a href="ajax/contact.php" class="ajax-link" data-toggle="tooltip" data-placement="top" title="Manage Contact">
+        <i class="fa fa-pencil-square-o"></i>
+        <span class="hidden-xs">Contact</span>
+    </a>
+</li>
+
 	
 				</li>
 					</li>

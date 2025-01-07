@@ -30,7 +30,7 @@
                <div class="col-md-6">
                   <div class="form-group">
                       <label>Gambar</label>
-                    <input type="file" class="form-control" name="gambar" >
+                    <input type="file" class="form-control" name="gambar" accept=".jpg, .jpeg, .png, .webp, .heic">
                   </div>
                 </div>
                 <div class="col-md-6">

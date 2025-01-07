@@ -14,7 +14,7 @@ $db= new admin();
 	<div id="breadcrumb" class="col-md-12">
 		<ol class="breadcrumb">
 			<li><a href="#">Dashboard</a></li>
-			<li><a    href="ajax/paket_wisata.php">Paket Wisata</a></li>
+			<li><a    href="#">Data Admin</a></li>
 			
 		</ol>
 	</div>
@@ -54,10 +54,8 @@ $db= new admin();
 
 		<th>ID</th>
 		<th>Foto</th>
-		<th>User Admin</th>
-	
+		<th>Username</th>
 		<th>Password</th>
-		<th>Level</th>
 		<th>Nama</th>
 		<th>Opsi</th>
 		
@@ -73,12 +71,14 @@ $db= new admin();
 					<!-- Start: list_row -->
 					</tr>
 						<tr>
-								<td ><?php echo $x['id']; ?></td>
-				<td><img class="img-rounded" src="../foto/<?php echo $x['foto']; ?>" alt=""></td>
-							<td><?php echo $x['user_admin']; ?></td>
-							<td><?php echo $x['pass_admin']; ?></td>
-									<td><?php echo $x['level']; ?></td>
-										<td><?php echo $x['nama']; ?></td>
+						<td><?php echo $x['id']; ?></td>
+<td><img class="img-rounded" src="../foto/<?php echo $x['foto']; ?>" alt=""></td>
+<td><?php echo $x['user_admin']; ?></td>
+<td>
+    <input type="password" value="<?php echo htmlspecialchars($x['pass_admin']); ?>" disabled style="border: none; background: none; text-align: left;">
+</td>
+<td><?php echo $x['nama']; ?></td>
+
 							
 		
 		<td>
@@ -105,10 +105,8 @@ $db= new admin();
 									
 	<th>ID</th>
 		<th>Foto</th>
-		<th>User Admin</th>
-	
+		<th>Username</th>
 		<th>Password</th>
-		<th>Level</th>
 		<th>Nama</th>
 		<th>Opsi</th>
 		

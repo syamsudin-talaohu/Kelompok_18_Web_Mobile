@@ -70,7 +70,7 @@ foreach($db->edit($_GET['id_user']) as $d){
                 <div class="col-md-6">
                     <label>Password</label>
                   <div class="form-group">
-                    <input type="text" class="form-control" name="password" value="<?php echo $d['password'] ?>">
+                    <input type="password" class="form-control" name="password" value="<?php echo $d['password'] ?>">
                   </div>
                 </div>
                 <div class="col-md-6">

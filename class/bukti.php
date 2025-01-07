@@ -19,15 +19,18 @@ $sql = "DELETE from tbl_user where id_user='$id_user'";
 				
 	}
 	
-	function insert($id_pesan,$file){
-			$sql = "INSERT INTO `tbl_bukti` (`id_bukti`, `id_pesan`, `file`) VALUES (NULL, '$id_pesan', '$file');";
-				$result = mysqli_query($this->getConnection(),$sql);
-
-			 move_uploaded_file($_FILES['file']['tmp_name'], "images/".$_FILES['file']['name']);
- 
-  echo"<script>alert('Gambar Berhasil diupload !');history.go(-1);</script>";
+	function insert($id_pesan, $file){
+		$sql = "INSERT INTO `tbl_bukti` (`id_bukti`, `id_pesan`, `file`) VALUES (NULL, '$id_pesan', '$file');";
+		$result = mysqli_query($this->getConnection(), $sql);
+	
+		move_uploaded_file($_FILES['file']['tmp_name'], "images/" . $_FILES['file']['name']);
+	 
+		echo "<script>
+				alert('Gambar Berhasil diupload!');
+				window.location.href = 'orderlist.php';
+			  </script>";
 	}
-
+	
 
 	
 

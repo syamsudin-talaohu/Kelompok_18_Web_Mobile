@@ -14,7 +14,7 @@ $db= new penginapan();
 	<div id="breadcrumb" class="col-md-12">
 		<ol class="breadcrumb">
 			<li><a href="#">Dashboard</a></li>
-			<li><a    href="ajax/edit_member.php">Member</a></li>
+			<li><a    href="#">Member</a></li>
 			
 		</ol>
 	</div>

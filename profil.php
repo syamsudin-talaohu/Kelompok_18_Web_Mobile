@@ -172,14 +172,14 @@
 									</div>
 								</div>
 								<div class="col-md-6">
-									<label>No Rekening</label>
+									<label>Perusahaan/Instansi</label>
 									<div class="form-group">
 										<input type="text" class="form-control"  name="no_rek" value="<?php echo $d['no_rek'] ?>">
 									</div>
 								</div>
 								<div class="col-md-6">
 
-										<label>Nama Rekening</label>
+										<label>Warna Favorit</label>
 									<div class="form-group">
 										<input type="text" class="form-control" name="nama_rek" value="<?php echo $d['nama_rek'] ?>">
 									</div>

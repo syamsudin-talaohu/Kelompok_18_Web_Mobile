@@ -14,7 +14,7 @@ $db= new paket();
 	<div id="breadcrumb" class="col-md-12">
 		<ol class="breadcrumb">
 			<li><a href="#">Dashboard</a></li>
-			<li><a    href="ajax/paket_wisata.php">Paket Penyewaan</a></li>
+			<li><a    href="#">Paket Pembelian</a></li>
 			
 		</ol>
 	</div>
@@ -25,7 +25,7 @@ $db= new paket();
 			<div class="box-header">
 				<div class="box-name">
 					<i class="fa fa-usd"></i>
-					<span>Paket penyewaan</span>
+					<span>Paket UI UX DESIGNER</span>
 
 				</div>
 				<div class="box-icons">

@@ -176,59 +176,62 @@
 							<div class="row">
 							
 								
-								<div class="col-md-6">
-									<div class="form-group">
-											<label>Foto</label>
-										<input type="file" class="form-control" name="foto" >
-									</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Foto</label>
+									<input type="file" class="form-control" name="foto" accept=".jpg, .jpeg, .png, .webp, .heic" required>
+							</div>
+
+
 								</div>
 								<div class="col-md-6">
 									<label>Nama</label>
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Nama" name="nama_user">
+										<input type="text" class="form-control" placeholder="Nama" name="nama_user" required>
 									</div>
+
 								</div>
 								<div class="col-md-6">
 										<label>Email</label>
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Email" name="email_user">
+										<input type="text" class="form-control" placeholder="Email" name="email_user" required>
 									</div>
 								</div>
 								<div class="col-md-6">
 										<label>Telpon</label>
 									<div class="form-group">
-									<input type="text" class="form-control" placeholder="No Hp" name="no_hp">
+									<input type="text" class="form-control" placeholder="No Hp" name="no_hp" required>
 									</div>
 								</div>
 								<div class="col-md-6">
-									<label>No Rekening</label>
+									<label>Perusahaan/Instansi</label>
 									<div class="form-group">
-							<input type="text" class="form-control" placeholder="No Rekening" name="no_rek">
+							<input type="text" class="form-control" placeholder="Perusahaan" name="no_rek" required>
 									</div>
 								</div>
 								<div class="col-md-6">
 
-										<label>Nama Rekening</label>
+										<label>Warna Favorit</label>
 									<div class="form-group">
-										<input type="text" class="form-control" name="nama_rek" placeholder="Atas nama rekening">
+										<input type="text" class="form-control" name="nama_rek" placeholder="Warna Favorit" required>
 									</div>
 								</div>
 								<div class="col-md-6">
 										<label>Username</label>
 									<div class="form-group">
-										<input type="text" class="form-control" name="username" placeholder="Username">
+										<input type="text" class="form-control" name="username" placeholder="Username" required>
 									</div>
 								</div>
 								<div class="col-md-6">
 										<label>Password</label>
 									<div class="form-group">
-										<input type="text" class="form-control" name="password" placeholder="Password">
+										<input type="text" class="form-control" name="password" placeholder="Password" required>
 									</div>
 								</div>
 								<div class="col-md-6">
 										<div class="input-field">
 													<label for="date-start">Tgl Lahir</label>
-													<input type="text" class="form-control" name="tgl_lahir" id="date-start" placeholder="mm/dd/yyyy"/>
+													<input type="text" class="form-control" name="tgl_lahir" id="date-start" placeholder="mm/dd/yyyy"/ required>
 												</div>
 								</div>
 								<div class="col-md-6">
@@ -244,7 +247,7 @@
 								<div class="col-md-12">
 										<label>Alamat</label>
 									<div class="form-group">
-										<textarea name="alamat" class="form-control" cols="30" rows="7" placeholder="Alamat"></textarea>
+										<textarea name="alamat" class="form-control" cols="30" rows="7" placeholder="Alamat" required></textarea>
 									</div>
 								</div>
 								<div class="col-md-12">
@@ -302,6 +305,17 @@
 	
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
+
+	<!-- Notifikasi sukses -->
+<script>
+    $(document).ready(function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('status') && urlParams.get('status') === 'berhasil_register') {
+            alert('Registrasi berhasil! Silakan login.');
+        }
+    });
+</script>
+
 
 	</body>
 </html>

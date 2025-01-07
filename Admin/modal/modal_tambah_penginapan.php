@@ -30,7 +30,7 @@
                <div class="col-md-6">
                   <div class="form-group">
                       <label>Foto</label>
-                    <input type="file" class="form-control" name="foto" >
+                    <input type="file" class="form-control" name="foto" accept=".jpg, .jpeg, .png, .webp, .heic">
                   </div>
                 </div>
                 <div class="col-md-6">

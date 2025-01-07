@@ -14,7 +14,7 @@ $db= new user();
 	<div id="breadcrumb" class="col-md-12">
 		<ol class="breadcrumb">
 			<li><a href="#">Dashboard</a></li>
-			<li><a    href="ajax/edit_member.php">Member</a></li>
+			<li><a    href="#">Member</a></li>
 			
 		</ol>
 	</div>
@@ -57,10 +57,9 @@ $db= new user();
 		<th>Nama</th>
 		<th>Email</th>
 		<th>No Hp</th>
-		<th>No Rekening</th>
-		<th>Nama Rekening</th>
+		<th>Perusahaan/Instansi</th>
+		<th>Warna Favorit</th>
 		<th>Username</th>
-		<th>Password</th>
 		<th>Tgl_lahir</th>
 		<th>Jekel</th>
 		<th>Alamat</th>
@@ -85,7 +84,6 @@ $db= new user();
 		<td><?php echo $x['no_rek']; ?></td>
 		<td><?php echo $x['nama_rek']; ?></td>
 		<td><?php echo $x['username']; ?></td>
-		<td><?php echo $x['password']; ?></td>
 		<td><?php echo $x['tgl_lahir']; ?></td>
 		<td><?php echo $x['jekel']; ?></td>
 		<td><?php echo $x['alamat']; ?></td>
@@ -115,10 +113,9 @@ $db= new user();
 		<th>Nama</th>
 		<th>Email</th>
 		<th>No Hp</th>
-		<th>No Rekening</th>
-		<th>Nama Rekening</th>
+		<th>Umur</th>
+		<th>Warna Favorit</th>
 		<th>Username</th>
-		<th>Password</th>
 		<th>Tgl_lahir</th>
 		<th>Jekel</th>
 		<th>Alamat</th>

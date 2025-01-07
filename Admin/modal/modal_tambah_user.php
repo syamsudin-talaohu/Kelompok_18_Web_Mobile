@@ -30,7 +30,7 @@
                <div class="col-md-6">
                   <div class="form-group">
                       <label>Foto</label>
-                    <input type="file" class="form-control" name="foto" >
+                    <input type="file" class="form-control" name="foto" accept=".jpg, .jpeg, .png, .webp, .heic">
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -52,16 +52,16 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <label>No Rekening</label>
+                  <label>Perusahaan/Instansi</label>
                   <div class="form-group">
-              <input type="text" class="form-control" placeholder="No Rekening" name="no_rek">
+              <input type="text" class="form-control" placeholder="Perusahaan" name="no_rek">
                   </div>
                 </div>
                 <div class="col-md-6">
 
-                    <label>Nama Rekening</label>
+                    <label>Warna Favorit</label>
                   <div class="form-group">
-                    <input type="text" class="form-control" name="nama_rek" placeholder="Atas nama rekening">
+                    <input type="text" class="form-control" name="nama_rek" placeholder="Warna Favorit">
                   </div>
                 </div>
                 <div class="col-md-6">

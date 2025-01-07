@@ -30,7 +30,7 @@
                <div class="col-md-6">
                   <div class="form-group">
                       <label>Foto</label>
-                    <input type="file" class="form-control" name="foto" >
+                    <input type="file" class="form-control" name="foto" accept=".jpg, .jpeg, .png, .webp, .heic">
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -53,7 +53,7 @@
                 
                   <p>
                     <input type="radio"  name="level" value="1">Administrator<br/>
-                          <input type="radio"  name="level" value="2">Operator</p>
+
                   </div>
                 </div>
                 

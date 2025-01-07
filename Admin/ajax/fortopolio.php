@@ -14,7 +14,7 @@ $db= new wisata();
 	<div id="breadcrumb" class="col-md-12">
 		<ol class="breadcrumb">
 			<li><a href="#">Dashboard</a></li>
-			<li><a    href="ajax/edit_member.php">Fortopolio</a></li>
+			<li><a    href="#">Fortopolio</a></li>
 			
 		</ol>
 	</div>

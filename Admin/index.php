@@ -1,14 +1,11 @@
-     <?php
+<?php
 
-     session_start();
-if($_SESSION){
-    header("Location: operator.php");
-   
+session_start();
 
-
-}elseif ($_SESSION) {
-     header("Location: admin.php");
+if ($_SESSION) {
+    header("Location: admin.php");
 }
+
 
                include '../class/admin.php';
 	$admin = new admin();

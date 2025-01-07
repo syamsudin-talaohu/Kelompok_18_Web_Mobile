@@ -122,10 +122,10 @@ $db= new penginapan();
 	?>
 					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive"  src="images/<?php echo $x['foto']; ?>" alt="" ></a>
+						<a  href="tampilHotel.php?id=<?php echo $x['id_hotel'] ?>"><img class="img-responsive"  src="images/<?php echo $x['foto']; ?>" alt="" ></a>
 							<div class="blog-text">
 								<div class="prod-title">
-									<h3><a href="#"><?php echo $x['hotel']; ?></a></h3>
+									<h3><a  href="tampilHotel.php?id=<?php echo $x['id_hotel'] ?>"><?php echo $x['hotel']; ?></a></h3>
 										<span><?php echo $x['harga']; ?> IDR</span>
 										
 								<a href="https://api.whatsapp.com/send?phone=6281240383361"><i class="icon-whatsapp"></i></a>
