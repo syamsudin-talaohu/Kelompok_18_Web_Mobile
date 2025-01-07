@@ -1,4 +1,4 @@
-# Aplikasi-Biro-Travel
-adalah aplikai info wisata dan pemesanan paket wisata.
+# Website Layanan Design UI UX
+adalah website jasa layanan desain ui/ux
 
 impor database kemudian sesuaikan file koneksi database.
